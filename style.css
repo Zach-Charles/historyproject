@@ -1,3 +1,25 @@
 * {
     font-family: sans-serif;
-}
+    color: #000;
+ }
+
+ h2 {
+    text-align: center;
+ }
+
+ .Anime {
+    background-color: #4B8DEE;
+ }
+
+ .Music {
+    background-color: #F93F3F;
+ }
+
+ .VideoGames {
+    background-color: #B960FF;
+ }
+
+ div {
+    padding: 30px;
+    max-width: 100%;
+ }
