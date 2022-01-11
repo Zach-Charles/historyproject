@@ -3,8 +3,18 @@
     color: #000;
  }
 
+ body {
+    padding: 0 0 20px;
+    margin: 0 auto;
+    width: 1050px;
+    max-width: 98%;
+    word-wrap: break-word;
+    word-break: break-word;
+ }
+
  h2 {
     text-align: center;
+    font-size: 30px;
  }
 
  .Anime {
@@ -12,11 +22,11 @@
  }
 
  .Music {
-    background-color: #F93F3F;
+    background-color: #fff;
  }
 
  .VideoGames {
-    background-color: #B960FF;
+    background-color: #F93F3F;
  }
 
  div {
@@ -31,9 +41,22 @@
  }
 
  .image {
-    height: 250px;
+    height: 300px;
     float: right;
     margin: 0 0 0 20px;
     box-shadow: 10px 10px 8px #000;
  }
 
+p {
+    font-size: 18px;
+}
+
+.header {
+    font-size: 30px;
+}
+
+#header {
+    text-align: right;
+    width: 50%;
+    border-width: 0;
+}
