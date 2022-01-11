@@ -3,7 +3,7 @@
     color: #000;
  }
 
- body {
+ .body {
     padding: 0 0 20px;
     margin: 0 auto;
     width: 1050px;
@@ -59,4 +59,38 @@ p {
     text-align: right;
     width: 50%;
     border-width: 0;
+    margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  font-size: 18px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #9B9B9B;
 }
