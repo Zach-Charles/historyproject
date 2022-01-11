@@ -13,6 +13,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d9bd713c-471e-4870-9f2f-807726f19950" />
+        <option name="url" value="https://github.com/Zach-Charles/finalproject.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="23VqpQuZzcbdyyUuB2NYRGn3QDg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
