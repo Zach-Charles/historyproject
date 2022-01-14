@@ -1,121 +1,134 @@
 * {
-    font-family: sans-serif;
-    color: #111;
-    box-sizing: border-box;
- }
-
+     font-family: sans-serif;
+     color: #111;
+     box-sizing: border-box;
+}
  .body {
-    padding: 0 0 20px;
-    margin: 0 auto;
-    width: 1050px;
-    max-width: 98%;
-    word-wrap: break-word;
-    word-break: break-word;
- }
-
-  div {
+     padding: 0 0 20px;
+     margin: 0 auto;
+     width: 1050px;
+     max-width: 98%;
+     word-wrap: break-word;
+     word-break: break-word;
+}
+ div {
      padding: 30px;
      max-width: 100%;
-  }
-
-
-  p {
-      font-size: 18px;
-  }
-
-  .header {
-      font-size: 30px;
-  }
-
-  #header {
-      text-align: right;
-      width: 50%;
-      border-width: 0;
-      margin-top: 50px;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
+}
+ p {
+     font-size: 18px;
+}
+ .header {
+     font-size: 30px;
+}
+ #header {
+     text-align: right;
+     width: 50%;
+     border-width: 0;
+     margin-top: 50px;
+}
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+     position: fixed;
+     top: 0;
+     width: 100%;
+}
+ li {
+     float: left;
+     font-size: 18px;
+}
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 20px 18px;
+     text-decoration: none;
+}
+ li a:hover {
+     background-color: #111;
+}
+ .active {
+     background-color: #9B9B9B;
+}
+ hr {
+     margin: 0;
+     height: 10px;
+     background-color: #4B8DEE;
+}
+ .hm {
+     background-color: #4B8DEE;
+}
+ .second {
+     background-color: #4B8DEE;
+}
+ .row {
+     display: flex;
+     padding: 0;
+}
+ .column {
+     flex: 33.33%;
+     padding: 5px;
+}
+ .container {
+     width: 100%;
+     background-color: #ddd;
+     padding: 0;
+}
+ .skills {
+     text-align: right;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: white;
+}
+ .vestory {
+    width: 95%;
+     background-color: #0D6BF4;
+}
+ .vevisuals {
     width: 100%;
-  }
-
-  li {
-    float: left;
-    font-size: 18px;
-  }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 18px;
-    text-decoration: none;
-  }
-
-
-  li a:hover {
-    background-color: #111;
-  }
-
-  .active {
-    background-color: #9B9B9B;
-  }
-
-   hr {
-      margin: 0;
-      height: 10px;
-      background-color: #4B8DEE;
-   }
-
-   .hm {
-      background-color: #4B8DEE;
-   }
-
-   .second {
-      background-color: #4B8DEE;
-   }
-
-  .row {
-    display: flex;
-    padding: 0;
-  }
-
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-
-
-  .container {
+     background-color: #111;
+}
+ .vemusic {
     width: 100%;
-    background-color: #ddd;
-    padding: 0;
-  }
-
-  .skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-  }
-
-  .vestory {width: 95%; background-color: #0D6BF4;}
-  .vevisuals {width: 100%; background-color: #111;}
-  .vemusic {width: 100%; background-color: #0D6BF4;}
-  .veenjoyment {width: 100%; background-color: #111;}
-
-  .mcstory {width: 100%; background-color: #0D6BF4;}
-  .mcvisuals {width: 100%; background-color: #111;}
-  .mcmusic {width: 97%; background-color: #0D6BF4;}
-  .mcenjoyment {width: 100%; background-color: #111;}
-
-  .mostory {width: 100%; background-color: #0D6BF4;}
-  .movisuals {width: 100%; background-color: #111;}
-  .momusic {width: 100%; background-color: #0D6BF4;}
-  .moenjoyment {width: 100%; background-color: #111;}
+     background-color: #0D6BF4;
+}
+ .veenjoyment {
+    width: 100%;
+     background-color: #111;
+}
+ .mcstory {
+    width: 100%;
+     background-color: #0D6BF4;
+}
+ .mcvisuals {
+    width: 100%;
+     background-color: #111;
+}
+ .mcmusic {
+    width: 97%;
+     background-color: #0D6BF4;
+}
+ .mcenjoyment {
+    width: 100%;
+     background-color: #111;
+}
+ .mostory {
+    width: 100%;
+     background-color: #0D6BF4;
+}
+ .movisuals {
+    width: 100%;
+     background-color: #111;
+}
+ .momusic {
+    width: 100%;
+     background-color: #0D6BF4;
+}
+ .moenjoyment {
+    width: 100%;
+     background-color: #111;
+}
