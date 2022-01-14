@@ -1,6 +1,6 @@
 * {
     font-family: sans-serif;
-    color: #000;
+    color: #111;
  }
 
  .body {
@@ -16,6 +16,7 @@
      padding: 30px;
      max-width: 100%;
   }
+
 
   p {
       font-size: 18px;
@@ -68,5 +69,23 @@
    hr {
       margin: 0;
       height: 10px;
-      background-color: #000;
+      background-color: #4B8DEE;
    }
+
+   .hm {
+      background-color: #4B8DEE;
+   }
+
+   .second {
+      background-color: #4B8DEE
+   }
+
+  .row {
+    display: flex;
+    padding: 0;
+  }
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
