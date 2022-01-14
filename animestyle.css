@@ -1,6 +1,7 @@
 * {
     font-family: sans-serif;
     color: #111;
+    box-sizing: border-box;
  }
 
  .body {
@@ -77,7 +78,7 @@
    }
 
    .second {
-      background-color: #4B8DEE
+      background-color: #4B8DEE;
    }
 
   .row {
@@ -89,3 +90,32 @@
     flex: 33.33%;
     padding: 5px;
   }
+
+
+  .container {
+    width: 100%;
+    background-color: #ddd;
+    padding: 0;
+  }
+
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+  .vestory {width: 95%; background-color: #0D6BF4;}
+  .vevisuals {width: 100%; background-color: #111;}
+  .vemusic {width: 100%; background-color: #0D6BF4;}
+  .veenjoyment {width: 100%; background-color: #111;}
+
+  .mcstory {width: 100%; background-color: #0D6BF4;}
+  .mcvisuals {width: 100%; background-color: #111;}
+  .mcmusic {width: 97%; background-color: #0D6BF4;}
+  .mcenjoyment {width: 100%; background-color: #111;}
+
+  .mostory {width: 100%; background-color: #0D6BF4;}
+  .movisuals {width: 100%; background-color: #111;}
+  .momusic {width: 100%; background-color: #0D6BF4;}
+  .moenjoyment {width: 100%; background-color: #111;}
