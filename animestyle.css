@@ -32,6 +32,8 @@
      border-width: 0;
      margin-top: 50px;
 }
+
+/* Navigation Bar */
  ul {
      list-style-type: none;
      margin: 0;
@@ -59,6 +61,8 @@
  .active {
      background-color: #9B9B9B;
 }
+/* End of Navigation Bar */
+
  hr {
      margin: 0;
      height: 10px;
@@ -70,6 +74,8 @@
  .second {
      background-color: #4B8DEE;
 }
+
+/* 3-Picture Display */
  .row {
      display: flex;
      padding: 0;
@@ -78,6 +84,8 @@
      flex: 33.33%;
      padding: 5px;
 }
+
+/* Rating Bars */
  .container {
      width: 100%;
      background-color: #ddd;
